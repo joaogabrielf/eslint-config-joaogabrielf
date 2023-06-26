@@ -1,12 +1,12 @@
 {
   "name": "@joaogabriel/eslint-config",
-  "version": "1.2.0",
+  "version": "1.0.0",
   "private": false,
   "description": "ESLint configuration made by Rocketseat added tailwind.",
   "main": "index.js",
   "license": "MIT",
   "repository": {
-    "url": "joaogabrielf/eslint-config-joaogabrielf"
+    "url": "git+https://github.com/joaogabrielf/eslint-config-joaogabrielf.git"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.25.0",
@@ -32,5 +32,14 @@
     "typescript": {
       "optional": true
     }
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/joaogabrielf/eslint-config-joaogabrielf/issues"
+  },
+  "homepage": "https://github.com/joaogabrielf/eslint-config-joaogabrielf#readme",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joao Franco"
 }
