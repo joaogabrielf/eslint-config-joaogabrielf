@@ -9,6 +9,7 @@ module.exports = {
     'plugin:react-hooks/recommended',
     'standard',
     'plugin:prettier/recommended',
+    'prettier-plugin-tailwindcss'
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -47,6 +48,8 @@ module.exports = {
     'jsx-a11y/aria-unsupported-elements': 'warn',
     'jsx-a11y/role-has-required-aria-props': 'warn',
     'jsx-a11y/role-supports-aria-props': 'warn',
+    "no-void": "off",
+    "no-unused-vars": "warn"
   },
   settings: {
     react: {
